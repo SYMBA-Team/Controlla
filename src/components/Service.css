@@ -1,0 +1,19 @@
+.Service {
+    background-color: var(--color0);
+    padding: 3em !important;
+    margin: auto 2em !important;
+    border-radius: 1em;
+    box-shadow: 1px 1px 0px 0px #00000080;
+    transition: transform 300ms ease-in;
+    cursor: pointer;
+}
+
+.Service:hover {
+    transform: scale(1.1);
+}
+.Service h2 {
+    color: #fff;
+}
+.Service img {
+    height: 180px;
+}

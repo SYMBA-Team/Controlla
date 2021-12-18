@@ -1,0 +1,43 @@
+.OptionSelector,
+.Commercial.Food {
+    background: url(../images/BG.png), #cca17830;
+    background-blend-mode: overlay;
+    padding: 8em 16em;
+}
+.OptionSelector h1 {
+    color: #4a2518;
+    font-family: "Carter One", sans-serif;
+}
+.OptionSelector .Type,
+.OptionSelector .Selector {
+    width: 33%;
+    margin: 1em;
+    padding: 1em 2em;
+    border-radius: 2em;
+    border: 0.2em solid #4a2518;
+    color: #4a2518;
+    font-weight: 500;
+}
+.OptionSelector .Selector {
+    display: flex;
+    justify-content: space-between;
+}
+.OptionSelector .Type {
+    background-color: #4a2518;
+    color: white;
+}
+.OptionSelector button {
+    color: #4a2518;
+}
+.MuiTabs-root {
+    background-color: #ec8d48;
+    border-radius: 1em;
+    font-family: "Carter One", sans-serif;
+    padding: 1em 1em 0 1em;
+}
+.MuiTab-root {
+    background-color: #fff !important;
+    margin: 0 2em !important;
+    font-size: 3em !important;
+    border-radius: 1em !important;
+}

@@ -1,0 +1,60 @@
+.Commercial {
+    padding: 2em 9em !important;
+}
+.Commercial h1 {
+    background-color: #cca178;
+    color: white;
+    padding: 0.5em;
+    border-radius: 0.4em;
+}
+.Commercial .Service {
+    background-color: #cca178;
+}
+.Commercial.Food .Card {
+    background-color: #4a2518;
+    margin: 1em 3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 2em;
+    position: relative;
+}
+.Commercial.Food .Card div {
+    background-image: url(../../images/Resturant/red\ promotion.png);
+    width: 110px;
+    background-size: cover;
+    height: 100px;
+    right: -50px;
+    z-index: 200;
+    text-align: center;
+    padding: 40px 0;
+    font-weight: 900;
+    color: white;
+    font-size: 1.2em;
+    position: absolute;
+}
+.Commercial.Food .Card h3 {
+    background-color: #ec8d48;
+    margin: 0;
+    font-size: 1.5em;
+    padding: 0.8em 1em;
+    text-align: center;
+    border-bottom-left-radius: 1.4em;
+    border-bottom-right-radius: 1.4em;
+}
+.Commercial.Food .Card img {
+    margin: 2em;
+    height: 150px;
+}
+.Commercial.Food {
+    overflow: auto;
+}
+.Commercial.Food .Back {
+    background: url(../../images/Resturant/food.png) 0 80%, url(../../images/Resturant/cap.png) 10% 0;
+    height: 60vh;
+    background-repeat: no-repeat;
+}
+
+.Commercial.Food .Back {
+    font-family: "Carter One", sans-serif;
+}
